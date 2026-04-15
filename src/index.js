@@ -4,7 +4,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", function(req, res){
-    return res.json({mensaje: "Saludos desde mi App de Node, ULTIMA VERSION"});
+    return res.json({mensaje: "Saludos desde mi App de Node, ULTIMA VERSION x"});
 });
 //LEVANTAR SERVIDOR 
 app.listen(3000, function(){
